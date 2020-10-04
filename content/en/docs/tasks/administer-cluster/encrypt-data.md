@@ -27,7 +27,7 @@ The `kube-apiserver` process accepts an argument `--encryption-provider-config`
 that controls how API data is encrypted in etcd. An example configuration
 is provided below.
 
-## Understanding the encryption at rest configuration.
+## Understanding the encryption at rest configuration
 
 ```yaml
 apiVersion: apiserver.config.k8s.io/v1
